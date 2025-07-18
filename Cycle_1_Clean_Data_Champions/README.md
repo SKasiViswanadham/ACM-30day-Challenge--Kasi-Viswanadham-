@@ -12,9 +12,9 @@ The better performance of Lasso would most likely be due to its intrinsic featur
 
 # Case File-3:
 # Entire Code Explanation
--step1:Imported libraries required
--step2: use Onehot Encoding and StandardScaler to make the entire dataset look like numerical
--step3: Now divide the targeted column from the dataset and put in another variable(now there will be 2 variables X and y)
+- step1:Imported libraries required
+- step2: use Onehot Encoding and StandardScaler to make the entire dataset look like numerical
+- step3: Now divide the targeted column from the dataset and put in another variable(now there will be 2 variables X and y)
 -step4: using Traintestsplit, split into two from both variables --> gets X_train_scaled, X_test_scaled, y_train, y_test
 -step5: pick the models
 -step6: Train the models with X_train_scaled and y_train, says that we will give the input as X_train_scaled and we are saying the model that output will be y_train
