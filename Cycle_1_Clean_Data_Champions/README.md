@@ -1,6 +1,6 @@
-#Case File-2:
+Case File-2:
 
-#Key Results
+Key Results
 Best Model: Lasso (MSE: 6.6521, R²: -0.0045)
 
 Why It Performed Best:
