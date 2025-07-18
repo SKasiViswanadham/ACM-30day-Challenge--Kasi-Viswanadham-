@@ -1,6 +1,6 @@
-Case File-2:
+# Case File-2:
 
-Key Results
+# Key Results
 Best Model: Lasso (MSE: 6.6521, R²: -0.0045)
 
 Why It Performed Best:
@@ -10,19 +10,19 @@ The better performance of Lasso would most likely be due to its intrinsic featur
 
 
 
-#Case File-3:
-Entire Code Explanation
-step1:Imported libraries required
-step2: use Onehot Encoding and StandardScaler to make the entire dataset look like numerical
-step3: Now divide the targeted column from the dataset and put in another variable(now there will be 2 variables X and y)
-step4: using Traintestsplit, split into two from both variables --> gets X_train_scaled, X_test_scaled, y_train, y_test
-step5: pick the models
-step6: Train the models with X_train_scaled and y_train, says that we will give the input as X_train_scaled and we are saying the model that output will be y_train
-step7: Train the model with unseen Data(X_test_scaled)
-step8: Accuracy Calculation, compare the results in between y_test and outputs from the model when the inputs are X_test_scaled
-Step9: Plot Heatmap for Confusion Matrix (Visualization)
-step10: plot ROC(Used chatgpt at this part)
-#RESULTS 
+# Case File-3:
+# Entire Code Explanation
+# step1:Imported libraries required
+#step2: use Onehot Encoding and StandardScaler to make the entire dataset look like numerical
+#step3: Now divide the targeted column from the dataset and put in another variable(now there will be 2 variables X and y)
+#step4: using Traintestsplit, split into two from both variables --> gets X_train_scaled, X_test_scaled, y_train, y_test
+#step5: pick the models
+#step6: Train the models with X_train_scaled and y_train, says that we will give the input as X_train_scaled and we are saying the model that output will be y_train
+#step7: Train the model with unseen Data(X_test_scaled)
+#step8: Accuracy Calculation, compare the results in between y_test and outputs from the model when the inputs are X_test_scaled
+#Step9: Plot Heatmap for Confusion Matrix (Visualization)
+#step10: plot ROC(Used chatgpt at this part)
+# RESULTS #
 Accuracy: Logistic Regression with 98.4
 Confusion matrix: Logistic Regression, based on (F = fp + fn) F value from both 14 for Logistic and 40 for LDA.[less F --> better Performance]
 ROC Curve: Logistic Regression has a slightly better ROC-AUC score with 99.9
