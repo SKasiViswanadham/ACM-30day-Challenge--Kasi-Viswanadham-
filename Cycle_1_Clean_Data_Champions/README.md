@@ -1,6 +1,6 @@
-Case File-2:
+#Case File-2:
 
-Key Results
+#Key Results
 Best Model: Lasso (MSE: 6.6521, R²: -0.0045)
 
 Why It Performed Best:
@@ -10,7 +10,7 @@ The better performance of Lasso would most likely be due to its intrinsic featur
 
 
 
-Case File-3:
+#Case File-3:
 Entire Code Explanation
 step1:Imported libraries required
 step2: use Onehot Encoding and StandardScaler to make the entire dataset look like numerical
@@ -22,8 +22,8 @@ step7: Train the model with unseen Data(X_test_scaled)
 step8: Accuracy Calculation, compare the results in between y_test and outputs from the model when the inputs are X_test_scaled
 Step9: Plot Heatmap for Confusion Matrix (Visualization)
 step10: plot ROC(Used chatgpt at this part)
-### RESULTS ###
-# Accuracy: Logistic Regression with 98.4
-# Confusion matrix: Logistic Regression, based on (F = fp + fn) F value from both 14 for Logistic and 40 for LDA.[less F --> better Performance]
-# ROC Curve: Logistic Regression has a slightly better ROC-AUC score with 99.9
-# overall LOGISTIC REGRESSION
+#RESULTS 
+Accuracy: Logistic Regression with 98.4
+Confusion matrix: Logistic Regression, based on (F = fp + fn) F value from both 14 for Logistic and 40 for LDA.[less F --> better Performance]
+ROC Curve: Logistic Regression has a slightly better ROC-AUC score with 99.9
+overall LOGISTIC REGRESSION
