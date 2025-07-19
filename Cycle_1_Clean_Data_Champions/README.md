@@ -27,3 +27,20 @@ The better performance of Lasso would most likely be due to its intrinsic featur
 - Confusion matrix: Logistic Regression, based on (F = fp + fn) F value from both 14 for Logistic and 40 for LDA.[less F --> better Performance]
 - ROC Curve: Logistic Regression has a slightly better ROC-AUC score with 99.9
 - overall LOGISTIC REGRESSION
+
+# Case File-4:
+# Model comparision
+- Before Conditions: taking all columns into consideration while training and testing the data
+- After Conditions: selecting the columns by feature selection which may affects the model efficiency and taking those columns for training and testing the model
+# K-Nearest Neighbors (KNN)
+- KNN relies on distance metrics (e.g., Euclidean), making it highly sensitive to irrelevant or noisy features that distort neighborhood structure.
+- Feature selection reduces dimensionality and noise, leading to more accurate neighbor identification and improved predictive performance.
+# Decision Tree
+- Decision Trees perform intrinsic feature selection by choosing splits based on the most informative features (e.g., using Gini impurity or information gain).
+- As a result, removing irrelevant features has minimal impact unless it affects important split variables.
+# Random Forest
+- Random Forests build multiple Decision Trees on bootstrapped data with random feature subsets, inherently reducing reliance on irrelevant features.
+- Due to this ensemble strategy and internal feature sampling, external feature selection yields negligible performance gains.
+
+
+
