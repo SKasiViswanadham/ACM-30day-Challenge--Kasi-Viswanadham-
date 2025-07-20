@@ -1,3 +1,15 @@
+# Main Problem
+# Dirty dataset detective
+# Cleaning Steps:
+Data cleaning involves removing duplicate records to prevent bias, imputing missing numerical values with medians and categorical values with modes for consistency, standardizing text by converting to lowercase and mapping inconsistent labels, applying one-hot encoding to categorical variables while dropping the first category to avoid multicollinearity, and using logarithmic transformation on skewed targets like charges to stabilize variance and reduce outlier impact.
+
+# Feature Selection Strategy: 
+Mutual information (MI) regression is used to quantify feature-target dependencies, capturing linear and non-linear relationships. Features are ranked by MI scores to prioritize predictive relevance, reducing dimensionality and noise. This model-agnostic, non-parametric approach accommodates mixed data types, minimizing irrelevant variables to enhance model performance and reduce overfitting.
+
+# Model Metrics (Before vs After Cleaning):
+The R² score measures the proportion of target variance explained. Pre-cleaning data with duplicates or skewness may yield lower R² due to noise. Post-cleaning, with steps like imputation and transformation, Linear Regression achieves an R² of 0.8295, and RandomForestRegressor achieves 0.84312. Feature selection via MI (selecting all features) results in nearly identical R² scores (0.8295 for Linear Regression, 0.84315 for RandomForestRegressor), indicating minimal impact due to retained features.
+
+
 # Case File-2:
 
 # Key Results
