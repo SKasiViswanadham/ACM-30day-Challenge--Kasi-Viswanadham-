@@ -23,3 +23,13 @@
 - RBF (Radial Basis Function) Kernel: Maps data into infinite dimensions to handle non-linear relationships using Gaussian functions.
 - Polynomial Kernel: Models complex non-linear patterns by fitting polynomial decision boundaries of specified degree.
 - PCA (Principal Component Analysis): Reduces dimensionality by projecting data onto directions (components) that capture the most variance.
+
+
+# Phase-3
+### Explanation
+- Fig plots, are made by using combinations, each by choosing one element at x axis and another at y axis
+- to plot the data on the graph we used pca becuse we cant project the the multifeature data on the 3d axis
+- And using elbow method we found out the number of clusters required
+- Same with Hierarchical Clustering, but clusters are choosen based on the distance
+
+- Gene Seperation,coustmer Segregation, AD recomendation, plant classification etc
