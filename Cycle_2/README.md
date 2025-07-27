@@ -6,9 +6,6 @@
 - Heatmap showing:
   -  True Negatives/Positives (correct predictions).
   -  False Negatives/Positives (misclassifications).
-  -  Example (approximate):
-  -  Negative: ~113,500 correct, ~45,994 misclassified as Positive.
-  -  Positive: ~129,000 correct, ~30,506 misclassified as Negative.
 # Write-Up:
 # Model Choice:
 Logistic Regression chosen for simplicity, efficiency, and good performance with sparse text data.
