@@ -6,7 +6,7 @@
 - Heatmap showing:
   -  True Negatives/Positives (correct predictions).
   -  False Negatives/Positives (misclassifications).
-### Write-Up:
+# Write-Up:
 ### Model Choice:
 Logistic Regression chosen for simplicity, efficiency, and good performance with sparse text data.
 ### TF-IDF Role: 
