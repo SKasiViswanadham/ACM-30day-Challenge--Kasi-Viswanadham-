@@ -1,17 +1,17 @@
-# 
+# Tweet Sentiment Analysis
 
-# Accuracy:
+### Accuracy:
 ~0.79 (79% correct predictions).
-# Confusion Matrix: 
+### Confusion Matrix: 
 - Heatmap showing:
   -  True Negatives/Positives (correct predictions).
   -  False Negatives/Positives (misclassifications).
-# Write-Up:
-# Model Choice:
+### Write-Up:
+### Model Choice:
 Logistic Regression chosen for simplicity, efficiency, and good performance with sparse text data.
-# TF-IDF Role: 
+### TF-IDF Role: 
 Converts text to numbers, emphasizes important words, reduces noise by limiting vocabulary.
-# Challenges and Solutions:
+### Challenges and Solutions:
 - Large dataset: Limited TF-IDF to 5,000 features to manage memory.
 - No Neutral labels: Adapted by mapping only Negative/Positive.
   Noisy text: Cleaned with regex to remove URLs, mentions, etc.
