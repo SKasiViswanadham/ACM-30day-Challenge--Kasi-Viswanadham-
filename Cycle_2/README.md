@@ -1,3 +1,26 @@
+# 
+
+# Accuracy: ~0.79 (79% correct predictions).
+# Confusion Matrix: 
+- Heatmap showing:
+  -  True Negatives/Positives (correct predictions).
+  -  False Negatives/Positives (misclassifications).
+  -  Example (approximate):
+  -  Negative: ~113,500 correct, ~45,994 misclassified as Positive.
+  -  Positive: ~129,000 correct, ~30,506 misclassified as Negative.
+# Write-Up:
+# Model Choice:
+Logistic Regression chosen for simplicity, efficiency, and good performance with sparse text data.
+# TF-IDF Role: 
+Converts text to numbers, emphasizes important words, reduces noise by limiting vocabulary.
+# Challenges and Solutions:
+- Large dataset: Limited TF-IDF to 5,000 features to manage memory.
+- No Neutral labels: Adapted by mapping only Negative/Positive.
+  Noisy text: Cleaned with regex to remove URLs, mentions, etc.
+- Model convergence: Set max_iter=1000 for Logistic Regression.
+- Balanced simplicity/performance: Chose Logistic Regression over complex models like XGBoost.
+
+
 # Phase-2
 ### EXPLANATION
 - step 1: import libraries
@@ -33,3 +56,5 @@
 - Same with Hierarchical Clustering, but clusters are choosen based on the distance
 
 - Gene Seperation,coustmer Segregation, AD recomendation, plant classification etc
+
+
