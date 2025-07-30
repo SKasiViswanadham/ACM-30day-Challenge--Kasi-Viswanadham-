@@ -54,4 +54,22 @@ Converts text to numbers, emphasizes important words, reduces noise by limiting 
 
 - Gene Seperation,coustmer Segregation, AD recomendation, plant classification etc
 
+# Phase-4
+### Summary:
+After converting the text into a sparse TF-IDF matrix, we applied Truncated SVD to reduce it to 2 components for visualization. A 2D scatter plot showed how documents are distributed in reduced space. Using K-Means clustering (k=20), we grouped similar texts, and got a **Silhouette Score of 0.3286**, showing reasonable topic separation without using labels.
 
+### Code Outputs:
+
+- Number of documents**: 11314
+- Number of categories**: 20
+- TF-IDF Matrix Shape**: (11314, 10000)
+- **SVD Output Shape**: (11314, 2)
+
+### Why dimensionality reduction is used:
+TF-IDF matrices are typically high-dimensional and sparse, which can be computationally expensive and hard to visualize. Dimensionality reduction helps to reduce noise and complexity.
+
+### What SVD/PCA achieves:
+SVD or PCA reduces the feature space while preserving the most important variance in the data, enabling efficient 2D/3D visualizations.
+
+### How clustering helps understand the structure of data without labels:
+Clustering groups similar documents based on feature patterns, revealing hidden structures and topic groupings even without knowing the actual categories, making it useful for unsupervised analysis.
