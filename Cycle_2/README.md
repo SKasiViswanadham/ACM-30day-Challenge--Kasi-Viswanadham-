@@ -60,10 +60,10 @@ After converting the text into a sparse TF-IDF matrix, we applied Truncated SVD 
 
 ### Code Outputs:
 
-- Number of documents**: 11314
-- Number of categories**: 20
-- TF-IDF Matrix Shape**: (11314, 10000)
-- **SVD Output Shape**: (11314, 2)
+- Number of documents: 11314
+- Number of categories: 20
+- TF-IDF Matrix Shape: (11314, 10000)
+- SVD Output Shape: (11314, 2)
 
 ### Why dimensionality reduction is used:
 TF-IDF matrices are typically high-dimensional and sparse, which can be computationally expensive and hard to visualize. Dimensionality reduction helps to reduce noise and complexity.
